@@ -1,0 +1,182 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display==swap");
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box; 
+
+}
+
+body,
+button{
+    font-family: 'Poppins', sans-serif ;
+    overflow: hidden;
+}
+
+.card{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+   
+    
+}
+
+.logincard{
+    height: 70vh;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: auto;
+    background-color: white;
+    
+
+}
+
+.semicircle-right{
+    position: fixed;
+    margin-top: 21%;
+    height: 150px;
+    width: 75px;
+    border-radius: 0 150px 150px 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.semicircle-left{
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 23.35%;
+    height: 150px;
+    width: 75px;
+    border-radius:150px 0 0 150px;
+    background-image: linear-gradient(to left top, #5ffbf1, #46eefa, #41dfff, #52cffe, #69bff8, #79b3f4, #8aa7ec, #9a9ae1, #aa8fd8, #ba83ca, #c777b9, #d16ba5);
+}
+
+.title{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 2.3rem;
+    color: #5FFBF1;
+}
+
+.description{
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.login-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    width: 360px;
+}
+
+.login-content .input-div{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid black;
+}
+.one{
+    margin-top: 50%;
+    padding: 5px 0;
+}
+.login-content .input-div .one{
+    margin-top: 0;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div > div{
+    position: relative;
+    height: 45px;
+}
+
+placeholder{
+    top: -5px;
+    font-size: 15px;
+}
+.input-div > div >input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'poppins',sans-serif;
+}
+.pass{
+    margin-top: 5%;
+}
+.input-div.pass{
+    
+    margin-bottom: 4px ;
+}
+
+
+a{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+a:hover{
+	color: #86A8E7;
+}
+
+.btn-card{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #5ffbf1, #46eefa, #41dfff, #52cffe, #69bff8, #79b3f4, #8aa7ec, #9a9ae1, #aa8fd8, #ba83ca, #c777b9, #d16ba5);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: cursive;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn-card:hover{
+	background-position: right;
+}
+
+.new-user{
+    margin-left: -15%;
+    font-size: 1.3rem;
+}
+.new-user > a{
+    margin-top: -5.1%;
+    margin-left: 75%;
+    color: #5FFBF1;
+    font-weight: bolder;
+}
+
